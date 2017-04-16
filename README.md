@@ -7,5 +7,10 @@ stack ghci
 
 load a file
 ```
-:l fileNameWitoutExtension
+:l fileNameWithoutExtension
+```
+
+run main function
+```
+stack runghc fileNameWithoutExtension
 ```
